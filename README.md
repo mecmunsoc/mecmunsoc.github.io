@@ -1,2 +1,5 @@
 # mecmunsoc.github.io
-Website of MUNSocMEC
+
+This is the repo for MECMUNSoc.
+
+> ⚠️ This website is under construction
