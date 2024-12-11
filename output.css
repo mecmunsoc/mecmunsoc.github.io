@@ -2808,3 +2808,76 @@ video {
     }
   }
 }
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F2F2F2; /* Background color */
+}
+
+/* Header styles */
+header {
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color:   
+#333; /* Text color */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #ddd;
+}
+
+h1 {
+  font-size: 36px; /* Adjust font size as needed */
+  font-weight: bold;
+  color: #333; /* Text color */
+}
+
+h2 {
+  font-size: 24px; /* Adjust font size as needed */
+  font-weight: bold;
+  color: #333; /* Text color */
+}
+
+/* Main content styles */
+.container {
+  padding: 20px;
+}
+
+.about-us, .mission-vision {
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.mission-vision {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Footer styles */
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
