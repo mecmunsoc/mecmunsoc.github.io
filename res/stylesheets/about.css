@@ -11,7 +11,7 @@
     margin-bottom: 64px;
     text-align: center;
     letter-spacing: -0.02em;
-    color: #FFD700;
+    color: var(--mecmun-gold-shiny);
 }
 
 .about div {
@@ -30,6 +30,6 @@
     font-size: 38px;
     font-weight: 500;
     margin-bottom: 24px;
-    color: #FFD700;
+    color: var(--mecmun-gold-shiny);
     letter-spacing: -0.01em;
 }

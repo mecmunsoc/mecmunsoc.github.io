@@ -1,12 +1,12 @@
 .highlight {
-    color: #FAA307;
+    color: var(--mecmun-accent);
 }
 
 .fancy-button {
     font-family: inherit;
     font-size: 18px;
-    background: #FAF3E1;
-    color: #FAA307;
+    background: var(--mecmun-white);
+    color: var(--mecmun-gold);
     padding: 0.8em 1.2em;
     display: flex;
     align-items: center;
@@ -29,7 +29,7 @@
 }
 
 .fancy-button img {
-    fill: #FAA307;
+    fill: var(--mecmun-gold);
 }
 
 .fancy-button span {

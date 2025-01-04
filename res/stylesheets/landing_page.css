@@ -5,7 +5,7 @@
     min-height: 100vh;
     font-family: monospace;
     gap: 16px;
-    color: #FAF3E1
+    color: var(--mecmun-white);
 }
 
 .landing .social-box {
@@ -17,7 +17,7 @@
     margin: 16px;
     padding: 16px;
     gap: 64px;
-    background-color: lightgrey;
+    background-color: var(--mecmun-white);
     border-radius: 16px;
 }
 
