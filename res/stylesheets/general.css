@@ -6,10 +6,18 @@
     --mecmun-accent: #9b2226;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
+
     background: linear-gradient(180deg, var(--mecmun-black) 0%, var(--mecmun-gold) 100%);
+    background-attachment: fixed;
+    
+    font-family: monospace;
 }
 
 a {

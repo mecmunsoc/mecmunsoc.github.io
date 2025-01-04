@@ -4,53 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MECMUN</title>
+    <title>MECMUNSoc</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://github.com/mecmunsoc.png" type="image/x-icon">
+    <meta property="og:title" content="MECMUNSoc">
+    <!-- <meta property="og:site_name" content=""> -->
+    <!-- <meta property="og:url" content=""> -->
+    <meta property="og:description" content="The Official Website Of MUNSoc at MEC">
+
 </head>
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg sticky-top" id="navbar">
-        <div class="container-fluid">
-            <a class="navbar-brand d-flex align-items-center" href="#" id="logo"><img
-                    src="https://github.com/mecmunsoc.png" alt="mecmun logo">
-                <span class="ms-2 text-light fs-4">MUNSOC</span></a>
-            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span><i class="fa-solid fa-bars" style="color: white; font-size: 42px; "></i></span>
-            </button> -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto w-auto mb-2 mb-lg-0 me-2">
-                    <li class="nav-item">
-                        <a class="nav-link active text-light fs-5" aria-current="page" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light fs-5" href="#About">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light fs-5" href="#Events">Events</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light fs-5" href="#AboutUs">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light fs-5" href="#Contact">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light fs-5" href="#Blog">Blog</a>
-                    </li>
-                </ul>
-                <form class="d-flex me-5" role="search">
-                    <button class="btn btn-outline-warning fs-5 " type="submit">Register!</button>
-                </form>
-            </div>
-        </div>
+    <nav class="navbar" id="navbar">
+        <a>
+            <img src="https://github.com/mecmunsoc.png" alt="mecmun logo">
+            <span class="ms-2 text-light fs-4">MUNSOC</span>
+        </a>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Events">Events</a></li>
+            <li><a href="#AboutUs">About Us</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+        <button>Register!</button>
     </nav>
 
     <!-- Landing Page -->
-    <section id="Landing-Page" class="landing page">
-        <div class="social-box">
+    <section id="Home" class="landing page">
+        <div class="social-box floaty">
             <img src="res/icons/instagram.svg" alt="instagram"></img>
             <img src="res/icons/gmail.svg" alt="gmail"></img>
             <img src="res/icons/facebook.svg" alt="facebook"></img>
@@ -110,24 +93,25 @@
     <section id="Events" class="events page">
         <h1 class="page-title">Upcoming Events</h1>
         <div class="featured-event">
-          <p>Featured Event</p>
+            <p>Featured Event</p>
         </div>
         <div class="carousel-container">
-          <div class="carousel">
-            <div class="carousel-item" id="event-1"></div>
-            <div class="carousel-item" id="event-2"></div>
-            <div class="carousel-item" id="event-3"></div>
-            <div class="carousel-item" id="event-4"></div>
-          </div>
-          <div class="carousel-dots">
-            <span class="dot active" data-index="0"></span>
-            <span class="dot" data-index="1"></span>
-            <span class="dot" data-index="2"></span>
-            <span class="dot" data-index="3"></span>  
-          </div>
+            <div class="carousel">
+                <div class="carousel-item" id="event-1"></div>
+                <div class="carousel-item" id="event-2"></div>
+                <div class="carousel-item" id="event-3"></div>
+                <div class="carousel-item" id="event-4"></div>
+            </div>
+            <div class="carousel-dots">
+                <span class="dot active" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+                <span class="dot" data-index="3"></span>
+            </div>
         </div>
-      </section>
-      <script src="res/scripts/events_carousel.js"></script>
+    </section>
+    <script src="res/scripts/events_carousel.js"></script>
+
 </body>
 
 </html>

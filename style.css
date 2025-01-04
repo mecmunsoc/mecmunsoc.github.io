@@ -1,9 +1,10 @@
 @import "res/stylesheets/custom_elements.css";
 @import "res/stylesheets/general.css";
 
-@import "res/stylesheets/bs/nav_style.css";
-@import "res/stylesheets/bs/bootstrap.min.css";
+/* @import "res/stylesheets/bs/nav_style.css"; */
+/* @import "res/stylesheets/bs/bootstrap.min.css"; */
 /* @import "res/stylesheets/bs/fa.min.css"; */
+@import "res/stylesheets/navbar.css";
 
 @import "res/stylesheets/landing_page.css";
 
