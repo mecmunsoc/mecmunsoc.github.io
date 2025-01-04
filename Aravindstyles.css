@@ -1,0 +1,100 @@
+/* General Page Styling */
+body {
+  background-color: black;
+  color: white;
+  font-family:'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
+.events-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  font-size: 2.5rem;
+  color: #C6A147;
+  margin-bottom: 20px;
+}
+
+/* Featured Event Box */
+.featured-event {
+  background-color: #333;
+  color: white;
+  border: 2px solid #C6A147;
+  border-radius: 10px;
+  margin: 0 auto 40px;
+  padding: 40px;;
+  max-width: 95%;
+  font-size: 5.rem;
+}
+
+/* Carousel Styling */
+.carousel-container {
+  position: relative;
+  padding-top: 6%;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.carousel {
+  display: flex;
+  overflow: hidden;
+  width: 100%; /* Matches the featured event box */
+  height: 300px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.carousel-item {
+  flex: 0 0 100%;
+  display: none; /* Hide all items initially */
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  background-color: #444;
+  color: white;
+  transition: opacity 0.5s ease;
+}
+
+.carousel-item.active {
+  display: flex; /* Only the active item is visible */
+  opacity: 1;
+}
+
+#event-1 {
+  background: url("images/IMG_8909.jpg") center/cover no-repeat;
+}
+
+#event-2 {
+  background: url("images/IMG_8940.jpg") center/cover no-repeat;
+}
+
+#event-3 {
+  background: url("images/IMG_8978.jpg") center/cover no-repeat;
+}
+
+#event-4 {
+  background: url("images/IMG_8917.jpg") center/cover no-repeat;
+}
+/* Dots */
+.carousel-dots {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.dot {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 0 8px;
+  background-color: #444;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active {
+  background-color: #C6A147;
+}
