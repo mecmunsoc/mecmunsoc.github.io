@@ -1,0 +1,35 @@
+.about {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.about h1 {
+
+    font-size: 68px;
+    font-weight: 600;
+    margin-bottom: 64px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFD700;
+}
+
+.about div {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about div p {
+    margin-bottom: 48px;
+    font-size: 22px;
+    line-height: 1.8;
+    font-weight: 400;
+}
+
+.about div h2 {
+    font-size: 38px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    color: #FFD700;
+    letter-spacing: -0.01em;
+}

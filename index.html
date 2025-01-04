@@ -1,78 +1,110 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MECMUN</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <!-- Landing Page Start -->
-  <main id="Hero" class="hero">
-    <div id="Box" class="box">
-        <div>
-            <svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M40.9898 3H17.0103C9.27266 3 3 9.27266 3 17.0103V40.9897C3 48.7273 9.27266 55 17.0103 55H40.9897C48.7273 55 55 48.7273 55 40.9897V17.0103C55.0001 9.27266 48.7275 3 40.9898 3Z"
-                stroke="black" stroke-width="5.40828" stroke-miterlimit="10" />
-              <path
-                d="M29.0001 41.5518C35.9322 41.5518 41.5518 35.9322 41.5518 29.0001C41.5518 22.0679 35.9322 16.4483 29.0001 16.4483C22.0679 16.4483 16.4483 22.0679 16.4483 29.0001C16.4483 35.9322 22.0679 41.5518 29.0001 41.5518Z"
-                stroke="black" stroke-width="5.40828" stroke-miterlimit="10" />
-              <path
-                d="M44.2414 16.4484C45.7269 16.4484 46.9311 15.2442 46.9311 13.7587C46.9311 12.2733 45.7269 11.0691 44.2414 11.0691C42.756 11.0691 41.5518 12.2733 41.5518 13.7587C41.5518 15.2442 42.756 16.4484 44.2414 16.4484Z"
-                fill="black" />
-            </svg>
-          </div>
-          <div>
-            <svg width="50" height="38" viewBox="0 0 50 38" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M50 3.125V34.375C50 36.1458 48.6458 37.5 46.875 37.5H43.75V9.13958L25 22.6042L6.25 9.13958V37.5H3.125C1.35208 37.5 0 36.1458 0 34.375V3.125C0 2.23958 0.3375 1.45833 0.897917 0.9C1.45833 0.333333 2.24167 0 3.125 0H4.16667L25 15.1042L45.8333 0H46.875C47.7604 0 48.5417 0.3375 49.1021 0.9C49.6646 1.45833 50 2.23958 50 3.125Z"
-                fill="black" />
-            </svg>
-          </div>
-          <div>
-            <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" clip-rule="evenodd"
-                d="M0 27.1508C0 40.5754 9.74999 51.7374 22.5 54V34.4999H15.75V27H22.5V21C22.5 14.25 26.8499 10.5 33.0001 10.5C34.9499 10.5 37.0501 10.8 38.9999 11.1V18H35.55C32.2499 18 31.5 19.65 31.5 21.75V27H38.7L37.5001 34.4999H31.5V54C44.2501 51.7374 54 40.5754 54 27.1508C54 12.2179 41.85 0 27 0C12.15 0 0 12.2179 0 27.1508Z"
-                fill="black" />
-            </svg>
-          </div>
-    </div>
-    <div id="Description" class="description">
-      <h1 class="title">
-        <span>Welcome to MEC</span>
-        <span><span class="highlight">MUN</span>Soc – Empowering</span>
-        <span>Tomorrow's Leaders!</span>
-      </h1>
-      <p class="subtitle">Join us in developing your diplomatic and leadership skills through Model United Nations.
-        Experience the art of debate and negotiation on a global scale.</p>
-        <button>
-            <div class="svg-wrapper-1">
-              <div class="svg-wrapper">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                  <path fill="none" d="M0 0h24v24H0z"></path>
-                  <path fill="currentColor" d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"></path>
-                </svg>
-              </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="#" id="logo"><img
+                    src="https://github.com/mecmunsoc.png" alt="mecmun logo">
+                <span class="ms-2 text-light fs-4">MUNSOC</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span><i class="fa-solid fa-bars" style="color: white; font-size: 42px; "></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto w-auto mb-2 mb-lg-0 me-2">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light fs-5" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light fs-5" href="#About">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light fs-5" href="#Events">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light fs-5" href="#AboutUs">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light fs-5" href="#Contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light fs-5" href="#Blog">Blog</a>
+                    </li>
+                </ul>
+                <form class="d-flex me-5" role="search">
+                    <button class="btn btn-outline-warning fs-5 " type="submit">Register!</button>
+                </form>
             </div>
-            <span>Learn More</span>
-          </button>
-    </div>
-    <div id="Logo" class="logo">
-        <svg width="291" height="293" viewBox="0 0 291 293" fill="none" xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink">
-        <rect width="291" height="293" fill="url(#pattern0_3_2)" />
-        <defs>
-          <pattern id="pattern0_3_2" patternContentUnits="objectBoundingBox" width="1" height="1">
-            <use xlink:href="#image0_3_2" transform="matrix(0.00447499 0 0 0.00444444 -0.00343643 0)" />
-          </pattern>
-          <image id="image0_3_2" width="225" height="225"
-            xlink:href="data:image/png;base64,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" />
-        </defs>
-      </svg>
-    </div>
-  </main>
+        </div>
+    </nav>
+
+    <!-- Landing Page -->
+    <section id="Landing-Page" class="landing page">
+        <div class="social-box">
+            <img src="/res/icons/instagram.svg" alt="instagram"></img>
+            <img src="/res/icons/gmail.svg" alt="gmail"></img>
+            <img src="/res/icons/facebook.svg" alt="facebook"></img>
+        </div>
+        <div class="description">
+            <h1 class="title">
+                <span>Welcome to MEC</span>
+                <span><span class="highlight">MUN</span>Soc - Empowering</span>
+                <span>Tomorrow's Leaders!</span>
+            </h1>
+            <p class="subtitle">
+                Join us in developing your diplomatic and leadership skills through Model United
+                Nations.
+                Experience the art of debate and negotiation on a global scale.</p>
+            <button class="fancy-button">
+                <img src="res/icons/send.svg" alt="send-arrow">
+                <span>Learn More</span>
+            </button>
+        </div>
+        <img class="logo" src="https://github.com/mecmunsoc.png" alt="">
+    </section>
+
+    <!-- About Page -->
+    <section id="About" class="about page">
+        <h1>
+            About MEC <span class="highlight">MUNSoc</span>
+        </h1>
+        <div>
+            <p>
+                MEC MUNSoc is the official Model United Nations society of MEC (Model Engineering College). We
+                provide a
+                platform for students to engage in thought-provoking debates, simulate international diplomacy, and
+                tackle
+                global challenges. Our society encourages the development of leadership, public speaking,
+                negotiation, and
+                teamwork skills, making students well-rounded global citizens.
+            </p>
+            <h2>Our Mission</h2>
+            <p>
+                Our mission is to inspire and empower the next generation of leaders by fostering an understanding
+                of diplomacy and
+                international relations. Through rigorous debate and collaboration, we aim to cultivate skills
+                essential for students to influence
+                positive change in the world.
+            </p>
+            <h2>
+                Vision</h2>
+            <p>
+                We envision MEC MUNSoc as a leading force in shaping future diplomats, policymakers, and
+                changemakers who will contribute
+                to a more peaceful, equitable, and sustainable world.
+            </p>
+        </div>
+    </section>
 </body>
 
 </html>

@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #000000 0%, #C6A147 100%);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.page {
+    color: white;
+    min-height: 100vh;
+}
+
+nav ul {
+    list-style-type: none;
+}
