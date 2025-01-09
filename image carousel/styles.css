@@ -1,0 +1,125 @@
+
+body {
+    margin: 50px;
+    padding: 0px;
+    background: linear-gradient(to bottom, rgb(198, 198, 16), black);
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+}
+.carousel-heading {
+    margin-top: 100px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;  /* Center the heading */
+    font-size: 60px;  /* Adjust font size */
+    font-weight: bold;  /* Make it bold */
+    color: #565d0d;  /* White color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  /* Add a subtle shadow for contrast */
+    margin-bottom: 10px;  /* Add space below the heading */
+}
+.carousel {
+    position: relative;
+    width: 70%;
+    height: 550px;
+    background-color: transparent;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    perspective: 1500px;
+    margin:70px auto 0;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-image {
+    position: absolute;
+    width: 70%;  /* Reduced image width */
+    height: 70%; /* Reduced image height */
+    object-fit: cover;
+    opacity: 0.6;
+    transition: opacity 0.5s, transform 0.5s ease-in-out;
+    left: 15%;  /* Center the images with slight overlap */
+    margin-top: 20px;
+    z-index: 1;  /* Set the default z-index to 1 */
+}
+
+.carousel-image.active {
+    opacity: 1;
+    transform: scale(1) translateZ(0);
+    z-index: 10;  /* Active image stays on top */
+}
+
+.carousel-image.prev {
+    opacity: 0.8;
+    transform: scale(0.8) translateX(-50%) translateY(30px);  /* Spread to the left */
+    z-index: 5;  /* Behind the active image */
+}
+
+.carousel-image.next {
+    opacity: 0.8;
+    transform: scale(0.8) translateX(50%) translateY(30px);  /* Spread to the right */
+    z-index: 5;  /* Behind the active image */
+}
+
+.carousel-controls {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 20px;
+    z-index: 10;
+}
+
+.carousel-control {
+    background-color: #444;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 11;
+}
+
+.carousel-control:hover {
+    background-color: #555;
+}
+
+.carousel-controls .carousel-control#nextBtn {
+    transform: translateX(-50px);
+}
+
+.carousel-controls .carousel-control#prevBtn {
+    transform: translateX(50px);  /* Reduced the translateX value to bring buttons closer */
+}
+.carousel-indicator {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform:  translateY(-90px) translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+
+.carousel-indicator-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #888;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    z-index:15;
+}
+
+.carousel-indicator-dot.active {
+    background-color: #fff;
+}  
+
