@@ -1,20 +1,12 @@
 
-body {
-    margin: 50px;
-    padding: 0px;
-    background: linear-gradient(to bottom, rgb(198, 198, 16), black);
-    color: #fff;
-    font-family: 'Arial', sans-serif;
-    height: 100vh;
-    overflow: hidden;
-}
+
 .carousel-heading {
     margin-top: 100px;
     font-family: 'Dancing Script', cursive;
     text-align: center;  /* Center the heading */
     font-size: 60px;  /* Adjust font size */
     font-weight: bold;  /* Make it bold */
-    color: #565d0d;  /* White color */
+    color:var(--mecmun-gold);  
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  /* Add a subtle shadow for contrast */
     margin-bottom: 10px;  /* Add space below the heading */
 }
@@ -82,7 +74,7 @@ body {
 }
 
 .carousel-control {
-    background-color: #444;
+    background-color: var(--mecmun-gold-shiny);
     padding: 10px;
     border-radius: 50%;
     cursor: pointer;
@@ -90,7 +82,7 @@ body {
 }
 
 .carousel-control:hover {
-    background-color: #555;
+    background-color:var(--mecmun-gold-shiny);
 }
 
 .carousel-controls .carousel-control#nextBtn {
@@ -113,13 +105,13 @@ body {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: #888;
+    background-color: var(--mecmun-white);
     cursor: pointer;
     transition: background-color 0.3s;
     z-index:15;
 }
 
 .carousel-indicator-dot.active {
-    background-color: #fff;
+    background-color: var(--mecmun-gold);
 }  
 
