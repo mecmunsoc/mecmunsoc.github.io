@@ -3,7 +3,7 @@
 .imagepage .carousel-heading {
     text-align: center;
     font-size: 5rem;
-    color: var(--mecmun-gold-shiny);
+    color: var(--mecmun-gold);
 }
 .imagepage .carousel {
     position: relative;
@@ -68,7 +68,7 @@
 }
 
 .imagepage .carousel-control {
-    background-color: var(--mecmun-gold-shiny);
+    background-color: var(--mecmun-gold);
     padding: 10px;
     border-radius: 50%;
     cursor: pointer;
@@ -80,7 +80,7 @@
 }
 
 .imagepage .carousel-control:hover {
-    background-color:var(--mecmun-gold-shiny);
+    background-color:var(--mecmun-gold);
 }
 
 .imagepage .carousel-controls .carousel-control#nextBtn {
@@ -99,17 +99,17 @@
     gap: 10px;
 }
 
-.imagepage .carousel-indicator-dot {
-    width: 10px;
-    height: 10px;
+.imagepage .carousel-indicator-dot{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 0 8px;
+    background-color: #444;
     border-radius: 50%;
-    background-color: var(--mecmun-white);
     cursor: pointer;
-    transition: background-color 0.3s;
-    z-index:15;
+    transition: background-color 0.3s ease;
 }
 
 .imagepage .carousel-indicator-dot.active {
     background-color: var(--mecmun-gold);
-}  
-
+}

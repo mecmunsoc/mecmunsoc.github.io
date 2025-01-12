@@ -5,7 +5,7 @@
 
 .events .page-title {
     font-size: 5rem;
-    color: var(--mecmun-gold-shiny);
+    color: var(--mecmun-gold);
     margin-bottom: 20px;
 }
 
@@ -92,5 +92,5 @@
 }
 
 .events .dot.active {
-    background-color: var(--mecmun-gold-shiny);
+    background-color: var(--mecmun-gold);
 }

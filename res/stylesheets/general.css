@@ -1,6 +1,7 @@
 * {
     --mecmun-white: #faf3e1;
-    --mecmun-gold: #c6a147;
+    /* --mecmun-gold: #c6a147; */
+    --mecmun-gold: #d2a636;
     --mecmun-gold-shiny: hsl(43, 98%, 56%);
     --mecmun-black: #000000;
     --mecmun-accent: #9b2226;
@@ -16,7 +17,7 @@ body {
     margin: 0;
     padding: 0;
 
-    background: linear-gradient(180deg, var(--mecmun-black) 0%, var(--mecmun-gold) 100%);
+    background: linear-gradient(180deg, #000000 0%, #222222 100%);
     background-attachment: fixed;
     
     font-family: monospace;

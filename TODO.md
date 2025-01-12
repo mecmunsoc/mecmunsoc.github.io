@@ -1,4 +1,2 @@
 - [ ] Replace sample images
-- [ ] Correct colors
 - [ ] Set fonts
-- [ ] Correct logo
