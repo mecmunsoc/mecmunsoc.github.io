@@ -1,0 +1,47 @@
+@media only screen and (max-width:768px) {
+    h1 {
+        font-size: 2rem !important;
+    }
+
+    nav {
+        padding: 1rem !important;
+        /* height: 6rem !important; */
+    }
+
+    nav ul {
+        display: none !important;
+    }
+
+    .landing .logo {
+        display: none; 
+    }
+
+    .landing .description {
+        width: 60% !important;
+    }
+
+    .landing .social-box {
+        margin: 4px !important;
+    }
+
+    .landing .fancy-button {
+        width: 90% !important;
+    }
+
+    .about div p {
+        line-height: 1.2 !important;
+    }
+
+    .imagepage .carousel {
+        width: 100% !important;
+    }
+
+    .imagepage .carousel-control {
+        font-size: 2rem;
+        padding: 16px !important;
+    }
+}
+
+* {
+    outline: solid red 1px;
+}

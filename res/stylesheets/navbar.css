@@ -2,9 +2,13 @@ nav {
     position: fixed;
     top: 0;
 
-    padding: 1rem 4rem;
+    z-index: 1000;
 
-    width: calc(100% - 8rem);
+    padding: 1rem 4rem;
+    box-sizing: border-box;
+
+    width: 100%;
+    height: 6rem;
 
     display: flex;
     justify-content: space-between;
@@ -37,10 +41,14 @@ nav ul {
     display: flex;
     justify-content: space-evenly;
     flex-grow: 2;
+
+    padding: 0;
 }
 
 nav ul li {
-    margin-left: 1rem;
+    margin: 0 1rem;
+
+    white-space: nowrap;
 }
 
 nav ul li:hover a {

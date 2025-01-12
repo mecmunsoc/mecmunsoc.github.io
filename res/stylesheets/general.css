@@ -4,6 +4,8 @@
     --mecmun-gold-shiny: hsl(43, 98%, 56%);
     --mecmun-black: #000000;
     --mecmun-accent: #9b2226;
+
+    /* box-sizing: border-box; */
 }
 
 html {
@@ -27,7 +29,9 @@ a {
 
 .page {
     color: var(--mecmun-white);
-    min-height: 100vh;
+    min-height: calc(100vh - 6rem);
+
+    margin: 2rem 0;
 }
 
 nav ul {

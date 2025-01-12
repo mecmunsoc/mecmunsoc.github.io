@@ -3,14 +3,14 @@
     padding: 20px;
 }
 
-.page-title {
-    font-size: 2.5rem;
+.events .page-title {
+    font-size: 5rem;
     color: var(--mecmun-gold-shiny);
     margin-bottom: 20px;
 }
 
 /* Featured Event Box */
-.featured-event {
+.events .featured-event {
     background-color: #333;
     color: var(--mecmun-white);
     border: 2px solid var(--mecmun-gold);
@@ -23,24 +23,24 @@
 }
 
 /* Carousel Styling */
-.carousel-container {
+.events .carousel-container {
     position: relative;
     padding-top: 6%;
     width: 90%;
     margin: 0 auto;
 }
 
-.carousel {
+.events .carousel {
     display: flex;
     overflow: hidden;
     width: 100%;
+    font-size: 2rem;
     /* Matches the featured event box */
     height: 300px;
-    border-radius: 20px;
     position: relative;
 }
 
-.carousel-item {
+.events .carousel-item {
     flex: 0 0 100%;
     display: none;
     /* Hide all items initially */
@@ -52,35 +52,35 @@
     transition: opacity 0.5s ease;
 }
 
-.carousel-item.active {
+.events .carousel-item.active {
     display: flex;
     /* Only the active item is visible */
     opacity: 1;
 }
 
-#event-1 {
+.events #event-1 {
     background: url("images/IMG_8909.jpg") center/cover no-repeat;
 }
 
-#event-2 {
+.events #event-2 {
     background: url("images/IMG_8940.jpg") center/cover no-repeat;
 }
 
-#event-3 {
+.events #event-3 {
     background: url("images/IMG_8978.jpg") center/cover no-repeat;
 }
 
-#event-4 {
+.events #event-4 {
     background: url("images/IMG_8917.jpg") center/cover no-repeat;
 }
 
 /* Dots */
-.carousel-dots {
+.events .carousel-dots {
     margin-top: 20px;
     text-align: center;
 }
 
-.dot {
+.events .dot {
     display: inline-block;
     width: 15px;
     height: 15px;
@@ -91,6 +91,6 @@
     transition: background-color 0.3s ease;
 }
 
-.dot.active {
+.events .dot.active {
     background-color: var(--mecmun-gold-shiny);
 }

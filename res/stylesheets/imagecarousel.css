@@ -1,16 +1,11 @@
 
 
-.carousel-heading {
-    margin-top: 100px;
-    font-family: 'Dancing Script', cursive;
-    text-align: center;  /* Center the heading */
-    font-size: 60px;  /* Adjust font size */
-    font-weight: bold;  /* Make it bold */
-    color:var(--mecmun-gold);  
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  /* Add a subtle shadow for contrast */
-    margin-bottom: 10px;  /* Add space below the heading */
+.imagepage .carousel-heading {
+    text-align: center;
+    font-size: 5rem;
+    color: var(--mecmun-gold-shiny);
 }
-.carousel {
+.imagepage .carousel {
     position: relative;
     width: 70%;
     height: 550px;
@@ -21,10 +16,9 @@
     align-items: center;
     border-radius: 10px;
     perspective: 1500px;
-    margin:70px auto 0;
 }
 
-.carousel-images {
+.imagepage .carousel-images {
     display: flex;
     transition: transform 0.5s ease-in-out;
     position: relative;
@@ -32,7 +26,7 @@
     height: 100%;
 }
 
-.carousel-image {
+.imagepage .carousel-image {
     position: absolute;
     width: 70%;  /* Reduced image width */
     height: 70%; /* Reduced image height */
@@ -44,25 +38,25 @@
     z-index: 1;  /* Set the default z-index to 1 */
 }
 
-.carousel-image.active {
+.imagepage .carousel-image.active {
     opacity: 1;
     transform: scale(1) translateZ(0);
     z-index: 10;  /* Active image stays on top */
 }
 
-.carousel-image.prev {
+.imagepage .carousel-image.prev {
     opacity: 0.8;
     transform: scale(0.8) translateX(-50%) translateY(30px);  /* Spread to the left */
     z-index: 5;  /* Behind the active image */
 }
 
-.carousel-image.next {
+.imagepage .carousel-image.next {
     opacity: 0.8;
     transform: scale(0.8) translateX(50%) translateY(30px);  /* Spread to the right */
     z-index: 5;  /* Behind the active image */
 }
 
-.carousel-controls {
+.imagepage .carousel-controls {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -73,7 +67,7 @@
     z-index: 10;
 }
 
-.carousel-control {
+.imagepage .carousel-control {
     background-color: var(--mecmun-gold-shiny);
     padding: 10px;
     border-radius: 50%;
@@ -81,18 +75,18 @@
     z-index: 11;
 }
 
-.carousel-control:hover {
+.imagepage .carousel-control:hover {
     background-color:var(--mecmun-gold-shiny);
 }
 
-.carousel-controls .carousel-control#nextBtn {
+.imagepage .carousel-controls .carousel-control#nextBtn {
     transform: translateX(-50px);
 }
 
-.carousel-controls .carousel-control#prevBtn {
+.imagepage .carousel-controls .carousel-control#prevBtn {
     transform: translateX(50px);  /* Reduced the translateX value to bring buttons closer */
 }
-.carousel-indicator {
+.imagepage .carousel-indicator {
     position: absolute;
     bottom: 20px;
     left: 50%;
@@ -101,7 +95,7 @@
     gap: 10px;
 }
 
-.carousel-indicator-dot {
+.imagepage .carousel-indicator-dot {
     width: 10px;
     height: 10px;
     border-radius: 50%;
@@ -111,7 +105,7 @@
     z-index:15;
 }
 
-.carousel-indicator-dot.active {
+.imagepage .carousel-indicator-dot.active {
     background-color: var(--mecmun-gold);
 }  
 
