@@ -6,7 +6,7 @@
     --mecmun-black: #000000;
     --mecmun-accent: #9b2226;
 
-    /* box-sizing: border-box; */
+    --navbar-height: 6rem;
 }
 
 html {
@@ -30,9 +30,13 @@ a {
 
 .page {
     color: var(--mecmun-white);
-    min-height: calc(100vh - 6rem);
+    min-height: 100vh;
 
-    margin: 2rem 0;
+    box-sizing: border-box;
+
+    margin: 0 3rem;
+    /* Extra 2 rem is only neede if there is an (important-message) */
+    padding-top: calc(var(--navbar-height) + 2rem) !important;
 }
 
 nav ul {

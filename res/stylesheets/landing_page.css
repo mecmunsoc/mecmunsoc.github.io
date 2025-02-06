@@ -2,9 +2,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    gap: 16px;
+    gap: 0.25rem;
     color: var(--mecmun-white);
+    margin: 0;
 }
 
 .landing .social-box {
@@ -26,7 +26,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 20px;
-    gap: 32px;
+    gap: 1rem;
 }
 
 .landing .description .title {
@@ -34,6 +34,8 @@
     font-weight: 600;
     display: flex;
     flex-direction: column;
+    line-height: 1.2;
+    margin: 0;
 }
 
 .landing .description .subtitle {
@@ -42,4 +44,16 @@
 
 .landing .logo {
     width: 17rem;
+}
+
+.landing .social-box .gmail:hover {
+    content: url(./../icons/gmail_color.svg);
+}
+
+.landing .social-box .linkedin:hover {
+    content: url(./../icons/linkedin_color.svg);
+}
+
+.landing .social-box .instagram:hover {
+    content: url(./../icons/instagram_color.svg);
 }

@@ -1,14 +1,14 @@
 .about {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 0 24px;
+    padding: 0 2rem;
 }
 
 .about h1 {
-
     font-size: 5rem;
     text-align: center;
     color: var(--mecmun-gold);
+    margin-top: 0;
 }
 
 .about div {
@@ -19,7 +19,7 @@
 .about div p {
     margin-bottom: 48px;
     font-size: 22px;
-    line-height: 1.8;
+    line-height: 1.6;
     font-weight: 400;
 }
 

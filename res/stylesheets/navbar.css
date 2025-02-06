@@ -4,61 +4,69 @@ nav {
 
     z-index: 1000;
 
-    padding: 1rem 4rem;
     box-sizing: border-box;
-
+    
     width: 100%;
-    height: 6rem;
+    height: var(--navbar-height);
+    
+    font-size: 1.2rem;
 
+}
+
+nav .main-nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-
-    font-size: 1.2rem;
+    align-items: center;    
+    
+    padding: 1rem 3rem;
 
     backdrop-filter: blur(15px);
 }
 
-nav a {
+nav .main-nav a {
     display: flex;
     align-items: center;
 
 }
 
-nav a img {
+nav .main-nav a img {
     height: 4rem;
     width: auto;
 
     border-radius: 100%;
 }
 
-nav a span {
+nav .main-nav a span {
     margin-left: 1rem;
     color: var(--mecmun-gold);
 }
 
-nav ul {
+nav .main-nav ul {
     display: flex;
     justify-content: space-evenly;
     flex-grow: 2;
 
+    height: 2rem;
+    line-height: 2rem;
+
     padding: 0;
 }
 
-nav ul li {
+nav .main-nav ul li {
     margin: 0 1rem;
-
+    
     white-space: nowrap;
 }
 
-nav ul li:hover a {
+nav .main-nav ul li:hover a {
     transition: transform 0.2s;
     color: var(--mecmun-gold);
     transform: translateY(3px);
-    text-decoration: underline !important;
+    /* text-decoration: underline !important; */
+    border-bottom: 2px solid var(--mecmun-gold);
 }
 
-nav button {
+nav .main-nav button {
     font-size: 1.2rem;
     background: transparent;
     color: var(--mecmun-gold);
@@ -67,7 +75,17 @@ nav button {
     border: 2px solid var(--mecmun-gold);
 }
 
-nav button:hover {
+nav .main-nav button:hover {
     background-color: var(--mecmun-gold);
     color: var(--mecmun-black);
+}
+
+.important-message {
+    height: 2rem;
+
+    line-height: 2rem;
+    font-size: 1.1rem;
+    
+    background-color: red;
+    color: white;
 }

@@ -18,26 +18,35 @@
 <body>
     <!-- Navbar -->
     <nav class="navbar" id="navbar">
-        <a>
-            <img src="res/images/MECMUNSoc-transparent.png" alt="mecmun logo">
-            <span class="ms-2 text-light fs-4">MUNSOC</span>
-        </a>
-        <ul>
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#About">About</a></li>
-            <li><a href="#Events">Events</a></li>
-            <li><a href="#AboutUs">About Us</a></li>
-            <li><a href="#Contact">Contact</a></li>
-        </ul>
-        <button>Register!</button>
+        <div class="main-nav">
+            <a>
+                <img src="res/images/MECMUNSoc-transparent.png" alt="mecmun logo">
+                <span class="ms-2 text-light fs-4">MUNSOC</span>
+            </a>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Events">Events</a></li>
+                <li><a href="#AboutUs">About Us</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdDZqKEkncgaKJydacU8xFUvyyQMOZKD1CXhCDazDFcFdr3qg/viewform">
+                <button>Join MECMUN!</button>
+            </a>
+        </div>
+        <div class="important-message">
+            <a href="#Events">
+                <marquee behavior="scroll" direction="left">MECMUN is happening on 15/02/2025. Click to know more!</marquee>
+            </a>
+        </div>
     </nav>
 
     <!-- Landing Page -->
     <section id="Home" class="landing page">
         <div class="social-box floaty">
-            <img src="res/icons/instagram.svg" alt="instagram"></img>
-            <img src="res/icons/gmail.svg" alt="gmail"></img>
-            <img src="res/icons/facebook.svg" alt="facebook"></img>
+            <a href="https://www.instagram.com/mec_munsoc/"><img class="instagram" src="res/icons/instagram_black.svg" alt="instagram"></a>
+            <a href="mailto:reachmecmun@gmail.com"><img class="gmail" src="res/icons/gmail_black.svg" alt="gmail"></a>
+            <a href="https://www.linkedin.com/company/mecmunsoc/"><img class="linkedin" src="res/icons/linkedin_black.svg" alt="linkedin"></a>
         </div>
         <div class="description">
             <h1 class="title">
@@ -49,10 +58,12 @@
                 Join us in developing your diplomatic and leadership skills through Model United
                 Nations.
                 Experience the art of debate and negotiation on a global scale.</p>
-            <button class="fancy-button">
-                <img src="res/icons/send.svg" alt="send-arrow">
-                <span>Learn More</span>
-            </button>
+            <a href="https://wa.me/9633983368?text=Hey, I would like to know about MECMUNSoc">
+                <button class="fancy-button">
+                    <img src="res/icons/send.svg" alt="send-arrow">
+                    <span>Learn More</span>
+                </button>
+            </a>
         </div>
         <img class="logo" src="res/images/MECMUNSoc-transparent.png" alt="">
     </section>
@@ -111,13 +122,13 @@
             </div>
         </div>
     </section>
+    <script src="res/scripts/events_carousel.js"></script>
 
     <!--Image Carousel-->
-    <section id="ImageCarousel" class="imagepage">
+    <!-- <section id="ImageCarousel" class="imagepage">
         <h1 class="carousel-heading">Past Events</h1>
         <div class="carousel">
             <div class="carousel-images" id="carouselImages">
-                <!-- Images will be injected here by JavaScript -->
             </div>
             <div class="carousel-controls">
                 <div class="carousel-control" id="prevBtn">&#10094;</div>
@@ -126,8 +137,7 @@
             <div class="carousel-indicator" id="carouselIndicator"></div>
         </div>
     </section>
-    <script src="res/scripts/image_carousel.js"></script>
-    <script src="res/scripts/events_carousel.js"></script>
+    <script src="res/scripts/image_carousel.js"></script> -->
     
 
 </body>

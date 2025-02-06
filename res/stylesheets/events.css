@@ -1,12 +1,11 @@
 .events {
     text-align: center;
-    padding: 20px;
 }
 
 .events .page-title {
     font-size: 5rem;
     color: var(--mecmun-gold);
-    margin-bottom: 20px;
+    margin: 0 auto 2rem auto;
 }
 
 /* Featured Event Box */
