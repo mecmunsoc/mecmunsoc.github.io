@@ -20,12 +20,16 @@ body {
     background: linear-gradient(180deg, #000000 0%, #222222 100%);
     background-attachment: fixed;
     
-    font-family: monospace;
+    font-family: "Montserrat";
 }
 
 a {
     color: var(--mecmun-white);
     text-decoration: none;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 .page {

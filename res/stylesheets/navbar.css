@@ -66,7 +66,7 @@ nav .main-nav ul li:hover a {
     border-bottom: 2px solid var(--mecmun-gold);
 }
 
-nav .main-nav button {
+/* nav .main-nav button {
     font-size: 1.2rem;
     background: transparent;
     color: var(--mecmun-gold);
@@ -78,7 +78,7 @@ nav .main-nav button {
 nav .main-nav button:hover {
     background-color: var(--mecmun-gold);
     color: var(--mecmun-black);
-}
+} */
 
 .important-message {
     height: 2rem;

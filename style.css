@@ -2,9 +2,8 @@
 @import "res/stylesheets/general.css";
 @import "res/stylesheets/mobile.css";
 
-/* @import "res/stylesheets/bs/nav_style.css"; */
-/* @import "res/stylesheets/bs/bootstrap.min.css"; */
-/* @import "res/stylesheets/bs/fa.min.css"; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 @import "res/stylesheets/navbar.css";
 
 @import "res/stylesheets/landing_page.css";

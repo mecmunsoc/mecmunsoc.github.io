@@ -46,3 +46,45 @@
     transition: all 0.3s;
     transform: rotate(45deg);
 }
+
+/* From Uiverse.io by gharsh11032000 */ 
+.fun-button {
+    padding: 0.5rem 1rem;
+    color: var(--mecmun-gold);
+    border: 2px solid var(--mecmun-gold);
+    border-radius: 2rem;
+    background-color: transparent;
+    font-weight: 600;
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+    overflow: hidden;
+}
+
+.fun-button::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: inherit;
+    scale: 0;
+    z-index: -1;
+    background-color: var(--mecmun-gold);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.fun-button:hover::before {
+    scale: 3;  
+}
+
+.fun-button:hover {
+    color: #212121;
+    scale: 1.1;
+    border-color: transparent;
+}
+
+.fun-button:active {
+    scale: 1;
+}
+
+

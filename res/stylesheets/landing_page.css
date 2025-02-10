@@ -46,6 +46,10 @@
     width: 17rem;
 }
 
+.landing .social-box img:hover {
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.4));
+}
+
 .landing .social-box .gmail:hover {
     content: url(./../icons/gmail_color.svg);
 }
